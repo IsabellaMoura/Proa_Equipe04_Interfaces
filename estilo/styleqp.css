@@ -1,0 +1,36 @@
+body{
+margin: 0%;
+padding: 0%;
+background-color: #d6d6d6;
+}
+
+header{
+background-color:#00509d ;
+display:grid
+}
+h1{
+    text-align: center;
+
+}
+.img{
+   margin: auto;
+   display: block; 
+}
+.p1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+pre{
+    text-align: center;
+}
+.rodape{
+    width: 100%;
+    float: left;
+    background-color:#00509d ;
+    padding: 25px 8%;
+}
+.rodape p{
+    color: #000;
+}
