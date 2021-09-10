@@ -1,16 +1,16 @@
 Algoritmo "DiasdaSemana"
-// Disciplina : [Lógica de Programação e JavaScript]
-// Professor : Jailson Costa dos Santos
-// Descrição : Aqui você descreve o que o programa faz! (função)
-// Autor(a) : Nome do(a) aluno(a)
+// Disciplina : [LÃ³gica de ProgramaÃ§Ã£o e JavaScript]
+// Professor : Jailson 
+// DescriÃ§Ã£o : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a) : Isabella
 // Data atual : 27/08/2021
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 diadasemana:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-Escreval("Digite um número")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+Escreval("Digite um nÃºmero")
 Leia(diadasemana)
 se diadasemana=1 entao
 Escreval("Domingo")
@@ -19,7 +19,7 @@ se diadasemana=2 entao
 Escreval("Segunda")
 senao
 se diadasemana=3 entao
-Escreval("Terça")
+Escreval("TerÃ§a")
 senao
 se diadasemana=4 entao
 Escreval("Quarta")
@@ -33,7 +33,7 @@ senao
 se diadasemana=7 entao
 Escreval("Sabado")
 senao
-Escreval("Não possui dia correspondente")*
+Escreval("NÃ£o possui dia correspondente")*
 fimse
 fimse
 fimse
