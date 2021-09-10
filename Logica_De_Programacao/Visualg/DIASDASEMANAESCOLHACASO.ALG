@@ -1,15 +1,15 @@
 Algoritmo "DiasdaSemanaEscolhaCaso"
-// Disciplina : [Lógica de Programação e JavaScript]
-// Professor : Jailson Costa dos Santos
-// Descrição : Aqui você descreve o que o programa faz! (função)
-// Autor(a) : Nome do(a) aluno(a)
+// Disciplina : [LÃ³gica de ProgramaÃ§Ã£o e JavaScript]
+// Professor : Jailson 
+// DescriÃ§Ã£o : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a) :Isabella
 // Data atual : 27/08/2021
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 diadasemana:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 Escreval("Digite um numero")
 Leia(diadasemana)
 escolha diadasemana
@@ -18,7 +18,7 @@ Escreval("Domingo")
 caso 2
 Escreval("Segunda")
 caso 3
-Escreval("Terça")
+Escreval("TerÃ§a")
 caso 4
 Escreval("Quarta")
 caso 5
@@ -26,8 +26,8 @@ Escreval("Quinta")
 caso 6
 Escreval("Sexta")
 caso 7
-Escreval("Sabádo")
+Escreval("SabÃ¡do")
 outrocaso
-Escreval("Não há dia correspondente")
+Escreval("NÃ£o hÃ¡ dia correspondente")
 fimescolha
 Fimalgoritmo
