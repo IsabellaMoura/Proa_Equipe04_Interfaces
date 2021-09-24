@@ -1,0 +1,23 @@
+<!-- Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade 
+dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias.   -->
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta name="author" content="Isabella Alves">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex.7</title>
+</head>
+<body>
+    <script>
+        var idade= parseInt (prompt("Digite a sua idade expressa em anos:"));
+        var meses= parseInt (prompt("Digite a sua idade expressa em meses:"));
+        var dias = parseInt (prompt("Digite a sua idade expressa em dias:"));
+        var anos=parseInt(idade*365)
+        var totalMes = (meses*30);
+        var totalDias =parseInt(anos+totalMes+dias);
+        alert("Você viveu o total aproximada de:"+totalDias+"dias");
+    </script>
+</body>
+</html>

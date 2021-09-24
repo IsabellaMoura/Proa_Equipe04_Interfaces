@@ -1,0 +1,29 @@
+<!-- Escreva um algoritmo para ler o número total de eleitores de um município, o número de votos 
+brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total 
+de eleitores.  -->
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta name="author" content="Isabella Alves">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex.8</title>
+</head>
+<body>
+    <script>
+        var t_eleitores= parseInt (prompt("Digite o total de eleitores do município:"));
+        var v_brancos= parseInt (prompt("Digite o número de votos brancos:"));
+        var v_nulos = parseInt (prompt("Digite o número de votos nulos:"));
+        var v_validos = parseInt (prompt("Digite o número de votos válidos:"));
+        var p_vb = v_brancos/t_eleitores*100
+        var p_vn = v_nulos/t_eleitores*100
+        var p_vv = v_validos/t_eleitores*100
+        alert(
+    "Porcentagem de votos brancos: " + porcentoB + "%" +
+    "\nPorcentagem de votos nulos: " + porcentoN + "%" +
+    "\nPorcentagem de votoss válidos: " + porcentoV + "%"
+);
+    </script>
+</body>
+</html>
